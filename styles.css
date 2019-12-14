@@ -6,3 +6,17 @@
 #donate-btn {
   margin-left: 20px;
 }
+
+.content {
+  text-align: center;
+  margin: 100px auto;
+}
+
+#team {
+  margin: 30px auto;
+}
+
+#team-photo {
+  margin: 5px auto;
+  width: 80%;
+}
