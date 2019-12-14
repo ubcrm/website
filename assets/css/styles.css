@@ -9,14 +9,16 @@
 
 .content {
   text-align: center;
-  margin: 100px auto;
+  /* margin: 100px auto; */
 }
 
-#team {
+/* #team {
   margin: 30px auto;
-}
+} */
 
-#team-photo {
-  margin: 5px auto;
-  width: 80%;
+.image {
+  /* margin: 5px auto; */
+  width: 70%;
+  max-height: 650px;
+  margin-bottom: 35px;
 }
