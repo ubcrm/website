@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'ethnocentricregular';
+  src: url('../fonts/ethnocentric_rg-webfont.woff2') format('woff2'),
+       url('../fonts/ethnocentric_rg-webfont.woff') format('woff'),
+       url('../fonts/ethnocentric\ rg.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .navbar-nav > li{
   margin-left: 12px;
@@ -35,11 +43,10 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  top: 60%;
-  font-family: 'Montserrat', sans-serif;
-  outline: black;
-  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-  font-size: 60px;
+  top: 45%;
+  font-family: 'ethnocentricregular';
+  text-shadow: -1px -1px 5px #00c, 1px -1px 2px #00c, -1px 1px 2px #00c, 1px 1px 2px #00c;
+  font-size: 50px;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
