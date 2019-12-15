@@ -3,8 +3,32 @@
   margin-right: 12px;
 }
 
+.gray {
+  color: #e9ecef;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.container {
+  width: 100%;
+}
+
+.custom-nav-items {
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+}
+
 #donate-btn {
   margin-left: 20px;
+}
+
+#social-media i {
+  font-size: 50px;
+  margin: auto 20px;
+  margin-top: 20px;
 }
 
 .content {
@@ -19,6 +43,21 @@
 .image {
   /* margin: 5px auto; */
   width: 70%;
-  max-height: 650px;
-  margin-bottom: 35px;
+  max-height: 550px;
+  max-width: 600px;
+  /* margin-bottom: 35px; */
+  margin: 1px auto;
+}
+
+#contact {
+  margin-bottom: 0;
+}
+
+.info {
+  background-color: #e9ecef;
+  height: 300px;
+}
+
+.info h1 {
+  vertical-align: center;
 }
