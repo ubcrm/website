@@ -1,26 +1,24 @@
 $(document).ready(function(){
-    var navbar = document.getElementById("robomaster-navbar");
-    var heroImage = document.getElementById("robomaster-hero-image");
-    var hero = document.getElementById("robomaster-hero");
+    var $navbar = $("#robomaster-navbar");
+    var $heroImage = $("#robomaster-hero-image");
+    var $hero = $("#robomaster-hero");
+    let heroOffset = 0;
     cropHero();
 
     function cropHero(){
-        let d = window.innerHeight - heroImage.height;
-        console.log(d);
-        if(d < 0){
-            hero.setAttribute("style", "margin-top:" + d + "px;"); 
+        heroOffset = window.innerHeight - $heroImage.height();
+        if(heroOffset < 0){
+            $hero.css("margin-top", heroOffset + "px"); 
         }
     }
-});
-
-
-$(window).scroll(function() {    
-  var scroll = $(window).scrollTop();
-
-  if (scroll >= 500) {
-      $(".navbar").addClass("navbar-dark");
-      $(".navbar").addClass("bg-dark");
-  } else {
-      $(".navbar").removeClass("bg-dark");
-  }
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+      
+        if (scroll >= window.innerHeight - 60){
+            $(".navbar").addClass("navbar-dark");
+            $(".navbar").addClass("bg-dark");
+        } else {
+            $(".navbar").removeClass("bg-dark");
+        }
+      });
 });
