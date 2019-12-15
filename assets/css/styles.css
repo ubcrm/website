@@ -9,12 +9,16 @@
   background-color: rgb(30, 32, 34);
 }
 
-.robomaster-hero{
+.navbar-transparent {
+  background-color: none;
+}
+
+.robomaster-hero {
   width: 100%;
   background-size: cover;
 }
 
-.robomaster-hero-image{
+.robomaster-hero-image {
   width: 100%;
 }
 
@@ -52,7 +56,6 @@
 .navbar-sticky + .content {
   padding-top: 60px;
 }
-
 
 .custom-nav-items {
   font-weight: 400;

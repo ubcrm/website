@@ -14,3 +14,15 @@ $(document).ready(function(){
       }
     }
 });
+
+
+$(window).scroll(function() {    
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 500) {
+      $(".navbar").addClass("navbar-dark");
+      $(".navbar").addClass("bg-dark");
+  } else {
+      $(".navbar").removeClass("bg-dark");
+  }
+});
