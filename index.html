@@ -8,61 +8,64 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/768be50850.js" crossorigin="anonymous"></script>
+  <script src="lib/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/index.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand custom-nav-items" href="#">UBC RoboMaster</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link custom-nav-items" href="#about-us">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-nav-items" href="#sponsor-message">Sponsors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-nav-items" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <div class="jumbotron content">
-    <h1>Welcome to UBC RoboMaster!</h1>
-  </div>
-  <div class="text-center">
-    <img src="assets/images/hero.jpg" class="image"> 
-  </div>
-  <div id="about-us" class="jumbotron content">
-    <h1>About Us</h1>
-    <a>UBC RoboMaster is a multidisciplinary competitive robotics team based in the University of British Columbia, Vancouver, Canada.</a>
-  </div>
-  <div class="text-center">
-    <img src="assets/images/team.jpg" class="image"> 
-  </div>
-  <div id="sponsor-message" class="jumbotron content">
-    <h1>Why Sponsor Us</h1>
-    <a> As an innovative engineering group which is specializing in designing, reframing and aiming to provide an unique experience of combining in-class theoriotical knowledge and practical field application in order to generate an opportunity for McMaster University students to explore their true talent and potential. With the great goal like this, we are in urgently demand of key stakeholders who are sharing the same vision and willing to participating in the process of assisting us achiving this goal!  </a>
-  </div>
-  <div id="contact" class="jumbotron content">
-    <h1>Contact Us</h1>
-    <a>To inquire about sponsorships and/or donations, please send us an email. Also feel free to follow us on social media!</a>
-    <div id="social-media" class="text-center">
-      <a href=""><i class="fas fa-envelope"></i></a>
-      <a href="https://www.facebook.com/ubcrobomaster/?tn-str=k*F"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.linkedin.com/company/ubcrm/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/ubcrobomaster"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/ubcrobomaster/"><i class="fab fa-instagram"></i></a>
-      <a href=""><i class="fab fa-youtube"></i></a>
-    </div>
+  <div class="robomaster-hero">
+    <h1 class="robomaster-hero-title">UBC Robomaster</h1>
+    <img class="robomaster-hero-image" src="assets/images/robomasterscene.jpg">
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="robomaster-navbar">
+      <a class="navbar-brand custom-nav-items" href="#">UBC RoboMaster</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link custom-nav-items" href="#about-us">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-nav-items" href="#sponsor-message">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-nav-items" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <div class="content">
+      <div id="about-us" class="jumbotron content">
+          <h1>About Us</h1>
+          <a>UBC RoboMaster is a multidisciplinary competitive robotics team based in the University of British Columbia, Vancouver, Canada.</a>
+        </div>
+        <div class="text-center">
+          <img src="assets/images/team.jpg" class="image"> 
+        </div>
+        <div id="sponsor-message" class="jumbotron content">
+          <h1>Why Sponsor Us</h1>
+          <a> As an innovative engineering group which is specializing in designing, reframing and aiming to provide an unique experience of combining in-class theoriotical knowledge and practical field application in order to generate an opportunity for McMaster University students to explore their true talent and potential. With the great goal like this, we are in urgently demand of key stakeholders who are sharing the same vision and willing to participating in the process of assisting us achiving this goal!  </a>
+        </div>
+        <div id="contact" class="jumbotron content">
+          <h1>Contact Us</h1>
+          <a>To inquire about sponsorships and/or donations, please send us an email. Also feel free to follow us on social media!</a>
+          <div id="social-media" class="text-center">
+            <a href=""><i class="fas fa-envelope"></i></a>
+            <a href="https://www.facebook.com/ubcrobomaster/?tn-str=k*F"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/company/ubcrm/?viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ubcrobomaster"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/ubcrobomaster/"><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>

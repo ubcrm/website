@@ -9,6 +9,51 @@
   background-color: rgb(30, 32, 34);
 }
 
+.robomaster-hero{
+  width: 100%;
+  background-size: cover;
+}
+
+.robomaster-hero-image{
+  width: 100%;
+}
+
+.robomaster-hero-title{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 36%;
+  font-family: 'Montserrat', sans-serif;
+  outline: black;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  font-size: 60px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.robomaster-navbar{
+  width: 100%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.navbar-sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-sticky + .content {
+  padding-top: 60px;
+}
+
+
 .custom-nav-items {
   font-weight: 400;
   font-size: 17px;
