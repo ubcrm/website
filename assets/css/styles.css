@@ -3,12 +3,8 @@
   margin-right: 12px;
 }
 
-.gray {
-  color: #e9ecef;
-}
-
 .jumbotron {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .container {
@@ -33,31 +29,15 @@
 
 .content {
   text-align: center;
-  /* margin: 100px auto; */
 }
 
-/* #team {
-  margin: 30px auto;
-} */
-
 .image {
-  /* margin: 5px auto; */
   width: 70%;
   max-height: 550px;
   max-width: 600px;
-  /* margin-bottom: 35px; */
   margin: 1px auto;
 }
 
 #contact {
   margin-bottom: 0;
-}
-
-.info {
-  background-color: #e9ecef;
-  height: 300px;
-}
-
-.info h1 {
-  vertical-align: center;
 }
