@@ -1,7 +1,7 @@
+
 .navbar-nav > li{
   margin-left: 12px;
   margin-right: 12px;
-  /* background-color: rgb(218, 215, 210);; */
 }
 
 .jumbotron {
@@ -10,14 +10,9 @@
 }
 
 .custom-nav-items {
-  font-weight: 800;
-  font-size: 20px;
-  color: white;
+  font-weight: 400;
+  font-size: 17px;
 }
-
-/* #donate-btn {
-  margin-left: 20px;
-} */
 
 #social-media i {
   font-size: 50px;
