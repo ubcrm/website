@@ -9,6 +9,10 @@
   background-color: rgb(30, 32, 34);
 }
 
+.navbar-transparent {
+  background-color: none;
+}
+
 #robomaster-hero{
   width: 100%;
   background-size: cover;
@@ -45,16 +49,12 @@
                                   supported by Chrome, Opera and Firefox */
 }
 
-.robomaster-navbar{
+#robomaster-navbar{
+  position: fixed;
+  top: 0;
   width: 100%;
   z-index: 100;
-  overflow: hidden;
 }
-
-.navbar-solid{
-  background-color: 
-}
-
 
 .custom-nav-items {
   font-weight: 400;
