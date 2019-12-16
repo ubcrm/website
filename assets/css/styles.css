@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'ethnocentricregular';
+  src: url('../fonts/ethnocentric_rg-webfont.woff2') format('woff2'),
+       url('../fonts/ethnocentric_rg-webfont.woff') format('woff'),
+       url('../fonts/ethnocentric\ rg.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .navbar-nav > li{
   margin-left: 12px;
@@ -7,6 +15,52 @@
 .jumbotron {
   margin-bottom: 0;
   background-color: rgb(30, 32, 34);
+}
+
+.navbar-transparent {
+  background-color: none;
+}
+
+#robomaster-hero{
+  width: 100%;
+  background-size: cover;
+  margin-top: -60;    
+}
+
+#robomaster-hero-image{
+  width: 100%;
+}
+
+.ubc-emblem{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 10%;
+  top: 30%;
+}
+
+.robomaster-hero-title{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 45%;
+  font-family: 'ethnocentricregular';
+  text-shadow: -1px -1px 5px #00c, 1px -1px 2px #00c, -1px 1px 2px #00c, 1px 1px 2px #00c;
+  font-size: 50px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+#robomaster-navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .custom-nav-items {
