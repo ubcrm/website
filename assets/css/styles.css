@@ -41,12 +41,14 @@
 
 .robomaster-hero-title{
   position: absolute;
+  /* position: relative; */
   left: 50%;
   transform: translate(-50%, 0);
   top: 45%;
   font-family: 'ethnocentricregular';
   text-shadow: -1px -1px 5px #00c, 1px -1px 2px #00c, -1px 1px 2px #00c, 1px 1px 2px #00c;
-  font-size: 50px;
+  /* font-size:  50px; */
+  font-size: 3em;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
