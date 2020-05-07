@@ -1,120 +1,491 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>UBC RoboMaster</title>
-	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="css/fixed.css">
-</head>
+<html class="background-100-e">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>UBC RoboMaster</title>
+		<meta name="description" content="Competitive robotics team at UBC" />
+		<meta name="keywords" content="robot, RoboMaster, UBC, STEM" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+		<link rel="stylesheet" href="bower_components/minicolors/jquery.minicolors.css" />
+		<link rel="stylesheet" href="bower_components/slick.js/slick/slick.css" />
+		<link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
+		<link rel="stylesheet" href="lib/linecons/style.css" />
+		<link rel="stylesheet" href="styles/style.min.css" />
+		<link rel="stylesheet" href="theme-custom.css" />
+		<link rel="shortcut icon" href="images/ezlogo-icon.png" />
+		<link rel="ezlogo icon" href="images/ezlogo-icon.png" />
+	</head>
 
-<body data-spy="scroll" data-target="navbarResponsive">
-
-<!-- Start Home Section -->
-<div id="Home">
-
-<!-- Start Navigation -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="index.html"><img src="img/logo.png"></a> 
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-
-	<div class="collapse navbar-collapse" id="navbarResponsive">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#Home">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">FAQ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Wiki</a>
-			</li>
-			<li class="nav-item">
-				<a class="btn btn-outline-light" href="#">Sponsor Us</a>
-			</li>
-		</ul>
-	</div>
-</nav>
-<!-- End Navigation -->
-
-<!-- Start Image Slider -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
-	<ol class="carousel-indicators">
-		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	</ol>
-
-	<!-- Start Carousel Content -->
-	<div class="carousel-inner" role="listbox">
-		<!-- Slide One -->
-		
-		<div class="carousel-item active" style="background-image: url(img/robomasterscene.jpg);">
-            <div class="container h-100">
-                <div class="carousel-caption text-center">
-					<h1 class="text-uppercase text-white font-weight-bold">UBC RoboMaster</h1>
-					<h3 class="text-white">We will have some kinda inspirational words here....</h3>
-					<a class="btn btn-outline-light btn-lg" href="#">Learn More</a>
+	<!-- BEGIN: Top Dropdown Navbar -->
+	<body class="state1 background-100-e">
+		<div class="ext-nav background-95-h page-transition">
+			<div class="view half-height">
+				<img alt class="bg static" src="images/placeholders/1920x1200-2.jpg" />
+				<div class="content no-top-padding no-bottom-padding  full-height">
+					<div class="container-fluid  full-height">
+						<div class="row full-height">
+							<a href="index.html" class="col-md-4 colors-a background-95-a full-height">
+								<div>
+									<span class="side-label">All The Latest</span>
+									<span class="side-title">Blogs</span>
+								</div>
+							</a>
+							<a href="index.html" class="col-md-4 colors-f background-95-f full-height">
+								<div>
+									<span class="side-label">Documentation</span>
+									<span class="side-title">Embedded Team</span>
+								</div>
+							</a>
+							<a href="index.html" class="col-md-4 colors-a background-95-a full-height">
+								<div>
+									<span class="side-label">Documentation</span>
+									<span class="side-title">Vision Team</span>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
-            </div>
+			</div>
 		</div>
-		<!-- Slide Two -->
-		<div class="carousel-item" style="background-image: url(img/bears.jpg);">
-		</div>
-		<!-- Slide Three -->
-		<div class="carousel-item" style="background-image: url(img/parts.jpg);">
-		</div>
-	</div>
-	
-	<!-- Start Carousel Prev & Next Buttons -->
-	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	</a>
-	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-	</a>
-</div>
-<!-- End Image Slide -->
+		<div class="page-border bottom colors-e background-solid"><a href="#top" class="hover-effect">To <span class="highlight">Top</span></a></div>
 
-</div>
-<!-- End Home Section -->
+		<!-- BEGIN: Top navbar -->
+		<div class="page-border right colors-e background-solid"></div>
+		<nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
+					<a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="#"><span></span></a>
+					<a class="navbar-brand" href=""><img src="images/ezlogo.png"></a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home" class="hover-effect">Home</a></li>
+						<li><a href="#about" class="hover-effect">About</a></li>
+						<li><a href="#projects" class="hover-effect">Projects</a></li>
+						<li><a href="#faq" class="hover-effect">FAQ</a></li>
+						<li><a href="#sponsors" class="hover-effect">Sponsors</a></li>
+						<li><a href="#contact" class="hover-effect">Contact</a></li>
+						<li class="hidden-xs"><a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"><span></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- BEGIN: Page content -->
+		<!-- BEGIN: Landing Page -->
+		<section id="home">
+			<div class="view">
+				<img alt class="bg" src="images/home_parts.jpg" /><img alt class="bg" src="images/home_rmscene.jpg" />
+				<div class="content home-lucy full-size colors-c background-20">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="textillate highlight" data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}">
+									<ul class="texts">
+										<li><b>We Are Innovators</b></li>
+										<li><b>We Are Developers</b></li>
+										<li><b>We Are Changing the Future of Robotics</b></li>
+									</ul>
+								</div>
+								<h1 class="heading text-left">UBC RoboMaster</h1>
+								<div class="big-separator"></div>
+								<p><a href="#about" class="button background-90-d heading-d border-hard">About Us</a><a href="#projects" class="button background-90-f heading-f border-hard">Our Work</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<!--- Start Course Section --
-<div id="course" class="offset">
+		<!-- BEGIN: About Section -->
+		<section id="about">
+			<div class="view">
+				<div class="content colors-e background-solid">
+					<h2>About</h2>
+					<div class="view">
+						<div class="content pane">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 stretch-height pane">
+										<div class="view fluid-height">
+											<img alt class="bg" src="images/about_team_photo_border.jpg" />
+											<div class="content incut colors-d background-transparent">
+												<div class="position-middle-center text-center">
+													<a class="button background-lite-c heading-c" href="#contacts">Contact Us Now</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6  stretch-height pane">
+										<div class="view fluid-height">
+											<div class="content incut colors-h background-solid">
+												<div class="position-middle-center">
+													<p class="subtitle highlight"><strong>Quisque dolor lacus, commodo id hendrerit viverra, euismod in odio.</strong></p>
+													<p>Aliquam fermentum massa ac est sollicitudin, at ultricies ligula tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.</p>
+													<p>Aenean nisi neque, aliquam ut nibh sit amet, finibus sagittis tortor aenean consectetur.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- BEGIN: Counting Numbers -->
+					<div class="content colors-h">
+						<div class="container-fluid">
+							<div class="row counters">
+								<div class="col-md-3 counter background-35-b">
+									<div class="count player row heading background-10-light">37</div>
+									<div class="caption">Members</div>
+								</div>
+								<div class="col-md-3 counter background-35-h">
+									<div class="count player row heading background-10-light">4</div>
+									<div class="caption">Robots</div>
+								</div>
+								<div class="col-md-3 counter background-35-b">
+									<div class="count player row heading background-10-light">193</div>
+									<div class="caption">Followers</div>
+								</div>
+								<div class="col-md-3 counter background-35-h">
+									<div class="count player row heading background-10-light">2</div>
+									<div class="caption">Years</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
 
-<div class="col-12 narrow text-center">
-	<h1>Nuno Theme Advanced Bootstrap Course</h1>
-	<p class="lead">Learn Bootstrap by creating an advanced Bootstrap 4 Responsive Website Template from scratch, with no steps skipped!</p>
-	<a class="btn btn-secondary btn-md" href="https://w3newbie.com/courses" target="_blank">Nuno Theme Course Coupon</a>
-</div>
+		<!-- Begin projects section-->
+		<section id="projects">
+			<div class="view">
+				<div class="content no-bottom-padding colors-e background-solid">
+					<div class="container">
+						<h2>Our <span class="highlight">Projects</span></h2>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+					</div>
+					<div class="gallery colors-h background-solid" data-default-group="all" data-overlay=".gallery-overlay">
+						<div class="container-fluid">
+							<div class="filter">
+								<ul class="nav nav-pills text-center">
+									<li><a class="hover-effect" data-group="all" href="#">All</a></li>
+									<li><a class="hover-effect" data-group="design" href="#">Full Robots</a> </li>
+									<li><a class="hover-effect" data-group="web" href="#">Mechanical</a></li>
+									<li><a class="hover-effect" data-group="video" href="#">Embedded</a></li>
+									<li><a class="hover-effect" data-group="photography" href="#">Vision</a></li>
+								</ul>
+							</div>
+							<div class="row">
+								<div class="grid">
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
+										<a href="#!portfolio-item-1.html" class="hover-overlay">
+											<img alt="Project 1" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+										<a href="#!portfolio-item-2.html" class="hover-overlay">
+											<img alt="Project 2" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">YouTube Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-youtube-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+										<a href="#!portfolio-item-3.html" class="hover-overlay">
+											<img alt="Project 3" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Slider</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-th heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+										<a href="#!portfolio-item-4.html" class="hover-overlay">
+											<img alt="Project 4" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Vimeo Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-vimeo-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+										<a href="#!portfolio-item-5.html" class="hover-overlay">
+											<img alt="Project 5" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Slider</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-th heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "design"]'>
+										<a href="#!portfolio-item-6.html" class="hover-overlay">
+											<img alt="Project 6" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design", "video", "web"]'>
+										<a href="#!portfolio-item-7.html" class="hover-overlay">
+											<img alt="Project 7" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Vimeo Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-vimeo-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web"]'>
+										<a href="#!portfolio-item-8.html" class="hover-overlay">
+											<img alt="Project 8" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design", "video", "web"]'>
+										<a href="#!portfolio-item-9.html" class="hover-overlay">
+											<img alt="Project 9" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">YouTube Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-youtube-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+										<a href="#!portfolio-item-10.html" class="hover-overlay">
+											<img alt="Project 10" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Vimeo Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-vimeo-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web"]'>
+										<a href="#!portfolio-item-11.html" class="hover-overlay">
+											<img alt="Project 11" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web", "design"]'>
+										<a href="#!portfolio-item-12.html" class="hover-overlay">
+											<img alt="Project 12" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Slider</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-th heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-</div>
-!--- End Course Section -->
+		<section id = "faq">
+			<div class = "view">
+				<div class="content no-bottom-padding colors-g background-solid">
+					<div class="container">
+						<h2>FAQ</h2>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<!-- Start Sponsors Section -->
-<div id="Sponsors">
+		<!-- Begin Sponsors -->
+		<section id = "sponsors">
+			<div class = "view">
+				<div class="content no-bottom-padding colors-e background-solid">
+					<div class="container">
+						<h2><span class = "highlight">Thank you to our</span> SPONSORS</h2>
+					</div>
+				</div>
+			</div>
+		</section>
 
-</div>
-<!-- End Sponsors Section -->
 
-<!-- Start Contact Section -->
-<div id="Contact">
+		<!-- BEGIN: Contact -->
+		<section id="contact">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-0.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" />
+				<div class="content full-size colors-h">
+					<div class="container">
+						<h2>Contact</h2>
+						<p class="header-details">Questions? Suggestions? <span class="highlight">Message us now!</span></p>
+						<div class="row">
+							<!-- Begin contact form left side info -->
+							<div class="col-md-6">
+								<div class="text-right scroll-in-animation" data-animation="fadeInLeft">									
+									<p class = "big-font">
+										<b>
+											<a href="mailto:team@ubcrobomaster.com">team@ubcrobomaster.com</a><br/>
+											<a href="http://www.ubcrobomaster.com">http://www.ubcrobomaster.com</a>
+										</b>
+									</p>	
+									<a target="_blank" href="https://www.facebook.com/ubcrobomaster/"><i class="fa fa-facebook fa-4x fa-fw"></i></a>
+									<a target="_blank" href="https://www.instagram.com/ubcrobomaster/?hl=en"><i class="fa fa-instagram fa-4x fa-fw"></i></a>
+									<a target="_blank" href="https://www.linkedin.com/company/ubcrobomaster"><i class="fa fa-linkedin fa-4x fa-fw"></i></a>
+									<a target="_blank" href="https://github.com/ubcrobomaster"><i class="fa fa-github fa-4x fa-fw"></i></a>
+								</div>
+							</div>
 
-</div>
-<!-- End Contact Section -->
+							<!-- Begin right side contact form-->
+							<div class="col-md-6">
+								<div class="text-left scroll-in-animation" data-animation="fadeInRight">
+									<form class="ajax-form" data-message-class="colors-e background-95 border heading" action="contact.php" method="post" novalidate="novalidate">
+										<div class="row">
+											<div class="col-md-6 control-group">
+												<div class="alt-placeholder">Name</div>
+												<input type="text" name="your-name" value="" size="40" placeholder="Name" data-validation-required-message="Please fill the required field." required>
+												<div class="help-block"></div>
+											</div>
+											<div class="col-md-6 control-group">
+												<div class="alt-placeholder">Email</div>
+												<input type="email" name="your-email" value="" size="40" placeholder="Email" data-validation-required-message="Please fill the required field." required>
+												<div class="help-block"></div>
+											</div>
+											<div class="col-md-12 control-group">
+												<div class="alt-placeholder">Message</div>
+												<textarea name="your-message" placeholder="Message" data-validation-required-message="Please fill the required field." required></textarea>
+												<div class="help-block"></div>
+											</div>
+											<div class="col-md-12 form-actions">
+												<input class="button" type="submit" value="Send">
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Page content -->
 
-<!--- Script Source Files -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.6.1/js/all.js"></script>
-<!--- End of Script Source Files -->
-
-</body>
+		<script>
+		if (typeof(atob) == "undefined")
+		{
+			document.write('<script src="lib/stringencoders-v3.10.3/javascript/base64.js"><\/script>');
+			var atob = function(x)
+			{
+				return base64.decode(x);
+			}
+		}
+		</script>
+		<script src="bower_components/less.js/dist/less.min.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="lib/tween/tween.min.js"></script>
+		<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/modernizr/modernizr.js"></script>
+		<script src="lib/SmoothScroll-1.2.1/SmoothScroll.js"></script>
+		<script src="bower_components/jquery-cookie/jquery.cookie.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
+		<script src="bower_components/minicolors/jquery.minicolors.min.js"></script>
+		<script src="bower_components/slick.js/slick/slick.min.js"></script>
+		<script src="bower_components/shufflejs/dist/jquery.shuffle.min.js"></script>
+		<script src="bower_components/textillate/assets/jquery.lettering.js"></script>
+		<script src="bower_components/textillate/assets/jquery.fittext.js"></script>
+		<script src="bower_components/textillate/jquery.textillate.js"></script>
+		<script src="lib/prism/prism.js"></script>
+		<script>
+		(function()
+		{
+			var disableMobileAnimations = true;
+			var isWin = navigator.appVersion.indexOf("Win") !== -1;
+			if (isWin) $('html').addClass('win');
+			var ua = navigator.userAgent.toLowerCase();
+			var isChrome = ua.indexOf('chrome') > -1;
+			if (isChrome) $('html').addClass('chrome');
+			var isAndroidBrowser4_3minus = ((ua.indexOf('mozilla/5.0') > -1 && ua.indexOf('android ') > -1 && ua.indexOf('applewebkit') > -1) && !(ua.indexOf('chrome') > -1));
+			if (isAndroidBrowser4_3minus) $('html').addClass('android-browser-4_3minus');
+			var isSafari = !isChrome && ua.indexOf('safari') !== -1;
+			if (isSafari) $('html').addClass('safari');
+			var isMobile = Modernizr.touch;
+			if (isMobile)
+			{
+				$('html').addClass('mobile');
+				if (disableMobileAnimations) $('html').addClass('poor-browser');
+			}
+			else
+			{
+				$('html').addClass('non-mobile');
+			}
+			if (isWin && isSafari)
+			{
+				$('html').addClass('flat-animation');
+			}
+		})();
+		</script>
+		<script src="scripts/script-bundle.js"></script>
+		<script>
+		if (Function('/*@cc_on return document.documentMode===9@*/')())
+		{
+			$('html').addClass('ie9');
+		}
+		if (Function('/*@cc_on return document.documentMode===10@*/')())
+		{
+			$('html').addClass('ie10');
+		}
+		if (!!navigator.userAgent.match(/Trident.*rv\:11\./))
+		{
+			$('html').addClass('ie11');
+		}
+		</script>
+	</body>
 </html>
-
