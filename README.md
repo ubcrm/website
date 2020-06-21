@@ -1,3 +1,3 @@
-# ubcrobomaster.github.io
+# robomaster_website
 
-View launched: https://ubcrobomaster.github.io/
+To view, go to [this link](https://alice-xiong.github.io/robomaster_website/)
