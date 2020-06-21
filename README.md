@@ -1,3 +1,3 @@
-# robomaster_website
+# UBC RoboMaster Website
 
-To view, go to [this link](https://alice-xiong.github.io/robomaster_website/)
+To view, go to [this link](https://ubcrobomaster.github.io/)
